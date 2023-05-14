@@ -7,8 +7,10 @@ const NavBar = () => {
 
   const handleLogOut = () => {
     logOut()
-      .then()
-      .then((error) => console.log(error.message));
+      .then(()=>{
+        
+      })
+      .then((error) => console.log(error));
   };
 
   const navItems = (
